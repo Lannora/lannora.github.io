@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #ffffff;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #1f1f1f;
+    border-bottom: 1px solid #333;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 15px;
+}
+
+.card {
+    background: #1e1e2f;
+    padding: 15px;
+    border-radius: 8px;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 10px #000;
+    position: relative;
+}
